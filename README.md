@@ -38,17 +38,34 @@ brew install node
 
 ---
 
-## Ionic
-#### Install the latest [Cordova](https://cordova.apache.org), [Ionic2](http://ionicframework.com/docs/v2/) and necessary dependencies
+## Cordova
+### Install the latest [Cordova](https://www.npmjs.com/package/cordova)
 
 ```
 npm install -g cordova@latest
+npm install -g cordova-common
+```
+
+```
+cordova -v
+```
+
+---
+
+## Ionic
+#### Install the latest [Ionic2](http://ionicframework.com/docs/v2/) and necessary dependencies
+
+```
 npm install -g ionic@latest
-npm install cordova-common
-npm install ios-sim
-npm install ios-deploy
-npm install android-simulator
-npm install
+npm install -g cordova-ios
+npm install -g ios-sim
+npm install -g ios-deploy
+npm install -g cordova-android
+npm install -g android-simulator
+```
+
+```
+ionic -v
 ```
 
 ---
@@ -85,7 +102,7 @@ android avd
 #### Commands to [build](http://ionicframework.com/docs/v2/cli/build/) and [run](http://ionicframework.com/docs/v2/cli/run/) the iOS app
 
 ```
-ionic build ios
+ionic build ios --verbose
 ionic build ios --release
 ```
 
@@ -95,17 +112,25 @@ ionic run ios --device --livereload --consolelogs --serverlogs
 ionic run ios --emulator --livereload --consolelogs --serverlogs --address localhost --port 8000
 ```
 
+```
+cordova requirements ios
+```
+
 ---
 
 ## Android
 #### Commands to [build](http://ionicframework.com/docs/v2/cli/build/) and [run](http://ionicframework.com/docs/v2/cli/run/) the Android app
 
 ```
-ionic build android
+ionic build android --verbose
 ionic build android --release
 ```
 
 ```
 ionic run android --consolelogs --serverlogs
 ionic run android --livereload --consolelogs --serverlogs
+```
+
+```
+cordova requirements android
 ```
