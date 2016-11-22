@@ -138,8 +138,4 @@
     <preference name="android-targetSdkVersion" value="24" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="LoadUrlTimeoutValue" value="50000" />
-    <preference name="xwalkVersion" value="20+" />
-    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
-    <preference name="xwalkMode" value="embedded" />
-    <preference name="xwalkMultipleApk" value="true" />
 </widget>
