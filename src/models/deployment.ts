@@ -60,8 +60,8 @@ export class Deployment extends Model {
         }
       }
       if (data.subdomain) {
-        this.domain = `${data.subdomain}.ushahidi.io`;
-        this.website = `https://${data.subdomain}.ushahidi.io`;
+        this.domain = `${data.subdomain}.citypin.co.zw`;
+        this.website = `https://${data.subdomain}.citypin.co.zw`;
       }
       if (data.website) {
         this.website = data.website;

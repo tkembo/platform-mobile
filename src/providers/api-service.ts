@@ -24,14 +24,14 @@ import { LoggerService } from '../providers/logger-service';
 import { DatabaseService } from '../providers/database-service';
 import { VimeoService } from '../providers/vimeo-service';
 
-import { USHAHIDI_CLIENT_ID, USHAHIDI_CLIENT_SECRET } from '../constants/secrets';
+import { CITYPIN_CLIENT_ID, CITYPIN_CLIENT_SECRET } from '../constants/secrets';
 
 @Injectable()
 export class ApiService extends HttpService {
 
   private source: string = "mobile";
-  private clientId: string = USHAHIDI_CLIENT_ID;
-  private clientSecret: string = USHAHIDI_CLIENT_SECRET;
+  private clientId: string = CITYPIN_CLIENT_ID;
+  private clientSecret: string = CITYPIN_CLIENT_SECRET;
   private scope: string = "api posts forms tags sets users media config";
   // api posts media forms tags savedsearches sets users stats layers
   // config messages notifications contacts roles permissions csv

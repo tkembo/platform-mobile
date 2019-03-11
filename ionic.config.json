@@ -1,6 +1,10 @@
 {
-  "name": "ushahidi",
-  "app_id": "",
+  "name": "citypin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
   "v2": true,
-  "typescript": true
+  "typescript": true,
+  "id": "b55d3998"
 }

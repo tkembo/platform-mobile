@@ -10,7 +10,7 @@ import { LoggerService } from '../providers/logger-service';
 export class SqlService {
 
   protected database:SQLiteObject = null;
-  protected name:string = 'ushahidi.db';
+  protected name:string = 'citypin.db';
   protected location:string = 'default';
 
   constructor(

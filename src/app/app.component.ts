@@ -54,15 +54,7 @@ export class MyApp {
   deploymentApi:string = null;
   direction:string = "ltr";
   languages:any[] = [
-    { name: 'English', code: 'en' },
-    { name: 'Français', code: 'fr' },
-    { name: 'Español', code: 'es' },
-    { name: 'Deutsche', code: 'de' },
-    { name: 'Português', code: 'pt' },
-    { name: 'Pусский', code: 'ru' },
-    { name: 'Nederlands', code: 'nl' },
-    { name: 'Kiswahili', code: 'sw' },
-    { name: 'عربى', code: 'ar' }
+    { name: 'English', code: 'en' }
   ];
 
   @ViewChild(Nav)

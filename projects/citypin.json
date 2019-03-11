@@ -1,0 +1,20 @@
+{
+  "appId": "com.citypin.android",
+  "appName": "CityPin",
+  "appDescription": "CityPin",
+  "appIcon": "projects/citypin/icon.png",
+  "appSplash": "projects/citypin/splash.png",
+  "appLanguages": "en",
+  "colorNavbar": "#3f4751",
+  "colorToolbar": "#343434",
+  "colorPrimary": "#fdc245",
+  "colorSecondary": "#adb6bf",
+  "colorDark": "#3f4751",
+  "colorLight": "#919ca9",
+  "colorDanger": "#dd0000",
+  "colorActive": "#2f77b0",
+  "colorHighlight": "#f0f2f4",
+  "deepLinkSecure": "https",
+  "deepLinkDomain": "citypin.co.zw",
+  "deepLinkProtocol": "citypin"
+}
